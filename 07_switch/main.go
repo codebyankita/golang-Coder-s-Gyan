@@ -43,5 +43,8 @@ func main() {
 	}
 
 	whoAmI(55)
+		whoAmI("golang")
+			whoAmI(true)
+				whoAmI(55.08)
 
 }
