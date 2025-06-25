@@ -15,8 +15,7 @@ type payment struct {
 func (p payment) makePayment(amount float32) {
 	// razorpayPaymentGw := razorpay{}
 	// stripePaymentGw := stripe{}
-	// razorpayPaymentGw.pay(amount)
-	p.gateway.pay(amount)
+	// razorpayPaymentGw.pay(amount) 
 }
 
 type razorpay struct{}
@@ -58,4 +57,4 @@ func main() {
 		gateway: paypalGw,
 	}
 	newPayment.makePayment(100)
-}
+} 
