@@ -3,13 +3,13 @@ package main
 import (
 	"fmt"
 
-	"github.com/codersgyan/podcast/auth"
-	"github.com/codersgyan/podcast/user"
+	"github.com/codebyankita/podcast/auth"
+	"github.com/codebyankita/podcast/user"
 	"github.com/fatih/color"
 )
 
 func main() {
-	auth.LoginWithCredentials("codersgyan", "secret")
+	auth.LoginWithCredentials("codebyankita", "secret")
 	session := auth.GetSession()
 
 	fmt.Println("session", session)
