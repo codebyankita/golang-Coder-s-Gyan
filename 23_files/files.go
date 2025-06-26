@@ -1,4 +1,4 @@
-package main
+ package main
 
 func main() {
 	// f, err := os.Open("example.txt")
